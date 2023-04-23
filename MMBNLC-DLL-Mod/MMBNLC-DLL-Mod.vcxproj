@@ -146,11 +146,6 @@
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Detours\vc\Detours.vcxproj">
-      <Project>{37489709-8054-4903-9c49-a79846049fc9}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

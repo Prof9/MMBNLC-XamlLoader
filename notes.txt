@@ -1,0 +1,7 @@
+MMBN_LC2.exe+2F2E5B6	mov	r8d,0x5		Limit for F0%d
+MMBN_LC2.exe+2FA5159	mov	edx,0x13		Bounds check 1 (move cursor left)
+MMBN_LC2.exe+2FA51E4	cmp	eax,0x14		Bounds check 2 (move cursor right)
+MMBN_LC2.exe+2FA5266	lea	edx,[r8+0x14]	Bounds check 3 (move cursor up - adjust position)
+MMBN_LC2.exe+2FA52BC	cmp	eax,0x14		Bounds check 4 (move cursor down)
+MMBN_LC2.exe+2FA52C1	sub	eax,0x14		Bounds check 4 (move cursor down - adjust position)
+
