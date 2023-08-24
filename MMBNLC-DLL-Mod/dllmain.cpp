@@ -94,7 +94,7 @@ void MyNoesis_GUI_SetXamlProvider(XamlProvider *xamlProvider) {
     Noesis_GUI_SetXamlProvider(xamlProvider);
 }
 
-extern "C" __declspec(dllexport) BOOL WINAPI ChaudLoaderInit(const uint8_t * userdata, size_t size) {
+extern "C" __declspec(dllexport) int WINAPI luaopen_xamlloader(void* unused) {
     if (DetourIsHelperProcess()) {
         std::cout << "DetourIsHelperProcess == false" << std::endl;
         return false;

@@ -24,6 +24,7 @@
     <ProjectGuid>{6ffa7a7d-1fd9-4f34-a1ab-b28c4ba7110a}</ProjectGuid>
     <RootNamespace>MMBNLCDLLMod</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>xamlloader</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
